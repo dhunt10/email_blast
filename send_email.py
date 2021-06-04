@@ -12,7 +12,7 @@ class sendEmail:
         self.filename = filename
         self.message = message
         self.sender_email = 'dhunt10@gmail.com'
-        self.password = 'Familyguy10!'
+        self.password = '**********'
         self.p = MIMEBase('application', 'octet-stream')
         self.filename = self.filename
         self.attachment = open(filename, "rb")
